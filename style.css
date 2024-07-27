@@ -1,0 +1,302 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #313030;
+}
+#container{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 15px 15px 20px 20px rgb(71, 67, 67);
+    background: linear-gradient(rgb(47, 47, 206) 30% ,rgb(149, 76, 194) 70%);
+}
+.box{
+    width: 30%;
+    height: 90%;
+    background-color: aliceblue;
+}
+.box img{
+    width: 100%;
+    height: 80%;
+    object-fit: center;
+}
+#diba{
+    width: 100%;
+    height: 6.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    font-size: 25px;
+    color: #0f0f0f;
+    /* background-color: #d60a0a; */
+}
+#like{
+    color: rgb(149, 76, 194);
+    font-size: 30px;
+}
+button{
+   padding: 13px 95px;
+   color: #fff;
+   border-radius: 10px;
+   margin-top: 20px;
+   position: relative;
+   border: none;
+   background: linear-gradient(rgb(47, 47, 206) 10% ,rgb(149, 76, 194) 70%);
+   margin-left: 10%;
+}
+button h5{
+    font-size: 17px;
+    margin-left: 15px;
+    font-weight: 300;
+}
+button span{
+    margin-left: -30px;
+    position: absolute;
+    padding: 1.9px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(149, 76, 194);
+    background-color: #fff;
+    border-radius: 50%;
+}
+#haa{
+    margin-left: 4%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11px;
+    position: absolute;
+}
+#head{
+    margin-left: 4%;
+    margin-top: 10%;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+}
+#square{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 25px 0px;
+    /* background-color: #71da09; */
+}
+#square h3{
+    font-size: 20px;
+    color: rgb(149, 76, 194);
+}
+#square h5{
+    font-size: 13px;
+    margin-top: 10px;
+}
+#square h2{
+    font-size: 90px;
+    font-weight: 500;
+    color: rgb(149, 76, 194);
+}
+#square span{
+    font-size: 45px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+#square h4{
+    font-size: 15px;
+}
+
+.lakhir{
+    width: 80%;
+    height: 5.5%;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(202, 198, 198);
+    margin-top: 1px;
+    margin-left: 10%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+.lakhir i{
+    color: #fff;
+    padding: 4px;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color:rgb(149, 76, 194) ;
+}
+.lakhir span{
+    color: rgb(149, 76, 194);
+    padding: 0px 5px;
+    font-weight: 00;
+}
+#nav{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: #313030; */
+    position: relative;
+}
+#icon1{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    height: 100%;
+    margin-left: -75%;
+    /* background-color:yellowgreen; */
+}
+#icon2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:yellowgreen; */
+}
+#icon3{
+    width: 25%;
+    margin-left: 75%;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 25px;
+    /* background-color:yellowgreen; */
+}
+#line1{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: #121212;
+    font-weight: 600;
+    align-items: center;
+   gap: 20px;
+    /* background-color: #a81c1c; */
+}
+#line2{
+    width: 100%;
+    font-weight: 600;
+    height: 8%;
+    color: #121212;
+    display: flex;
+    padding: 10px 25px;
+    font-size: 20px;
+    align-items: center;
+   gap: 120px;
+    /* background-color: #a81c1c; */
+}
+#line2 i{
+    margin-left: -17px;
+}
+#chota{
+    width: 19.5%;
+    height: 65%;
+    margin-top: -35.5%;
+    border-radius: 10px;
+    margin-left: 13px;
+    background-color: #fff;
+    position: absolute;
+    overflow: hidden;
+}
+#chota #line2{
+    width: 100%;
+    font-weight: 600;
+    height: 8%;
+    color: #fff;
+    display: flex;
+    padding: 10px 25px;
+    font-size: 20px;
+    align-items: center;
+   gap: 100px;
+   background: linear-gradient(rgb(47, 47, 206) 10% ,rgb(149, 76, 194) 70%);
+}
+#chota #line2 i{
+    margin-left: -17px;
+}
+#chota .lakhir{
+    width: 100%;
+    height: 35%;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(202, 198, 198);
+    margin-top: 1px;
+    background-color: #fff;
+    display: flex;
+   margin-left: 0%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+#chota .lakhir i{
+    color: #fff;
+    padding: 4px;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color:rgb(149, 76, 194) ;
+}
+#chota .lakhir span{
+    color: rgb(149, 76, 194);
+    padding: 0px 5px;
+    font-weight: 00;
+}
+#issue {
+    width: 85%;
+    height: 20%;
+    margin-top: 11%;
+    margin-left: 7%;
+    /* background-color: goldenrod; */
+}
+#chota button{
+    padding: 13px 95px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 25px;
+    position: relative;
+    border: none;
+    background: linear-gradient(rgb(47, 47, 206) 10% ,rgb(149, 76, 194) 70%);
+    margin-left: 6%;
+}
+#chota button h5{
+     font-size: 17px;
+     margin-left: 15px;
+     font-weight: 300;
+}
+#chota button span{
+     margin-left: -30px;
+     position: absolute;
+     padding: 1.9px;
+     font-size: 15px;
+     font-weight: 100;
+     color: rgb(149, 76, 194);
+     background-color: #fff;
+     border-radius: 50%;
+}
+#chota #haa{
+    margin-left: 4%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 13px;
+    position: absolute;
+}
